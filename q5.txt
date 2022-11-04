@@ -1,0 +1,12 @@
+
+
+1. Does the change inside increment_int_a change the variable a after the function call?
+No, the change inside increment_int_a does not change the varaible a after the function call. The variable a contains its original value.
+
+2. Does the change inside increment_int_b change the variable b after the function call?
+Yes, the change inside increment_int_b does change the variable b after the function call. 
+The variable b is incremented by 1.
+
+3. If they differ answer why? If not, why not?
+They differ because for the first function, it is passing by value whereas the second function is passing by reference. The difference between them is that passing by value copies the value of the parameter and passes it to the new variable in the function and passing by reference allows the function to have direct access to the variables. Whether they pass by value or pass by reference depends on the type of variable, being mutable or immutable.
+      
